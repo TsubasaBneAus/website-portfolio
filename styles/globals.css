@@ -30,7 +30,10 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-header h1 {
+.title, .title:hover {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -88,14 +91,12 @@ header nav ul li a:hover {
     height: 89px;
   }
 
-  header h1 {
+  .title, .title:hover {
+    font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-  /* header nav {
-  } */
 
   header nav ul {
     margin-top: 5px;

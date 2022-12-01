@@ -4,14 +4,16 @@ import { Dropdown } from "react-bootstrap";
 const Header = () => {
   return (
     <header>
-      <h1>Portfolio</h1>
+      <Link className="title" href="/">
+        PORTFOLIO
+      </Link>
       <nav>
         <ul>
           <li>
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/products">Products</Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
           <li>
             <Link href="/about">About</Link>
