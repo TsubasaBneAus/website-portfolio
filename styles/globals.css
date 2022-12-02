@@ -41,6 +41,7 @@ header {
 
 header nav ul {
   margin: 0 auto;
+  padding-left: 32px;
 }
 
 header nav ul li {
