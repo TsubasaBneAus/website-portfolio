@@ -17,7 +17,7 @@ main {
 }
 
 header {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -108,7 +108,7 @@ header nav ul li a:hover {
 }
 
 footer {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: rgb(36, 36, 36);
   color: white;
   position: absolute;
@@ -125,7 +125,7 @@ footer p {
 .introduction,
 .portfolio,
 .about {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,6 +137,8 @@ footer p {
 .portfolio h1,
 .about h1 {
   margin: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .profileImage {
@@ -183,5 +185,5 @@ footer p {
 }
 
 .spacedText {
-  margin-right : 10px;
+  margin-right: 10px;
 }
