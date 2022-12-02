@@ -148,11 +148,11 @@ footer p {
 
 .introduction p,
 .description {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 30%;
+  padding-right: 30%;
   margin: 20px;
   font-style: italic;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 @media screen and (max-width: 600px) {
@@ -165,7 +165,7 @@ footer p {
 
 .contact,
 .contact:hover {
-  font-size: 20px;
+  font-size: 24px;
   color: rgb(36, 36, 36);
   text-decoration: none;
   display: flex;
