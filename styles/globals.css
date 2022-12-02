@@ -13,12 +13,12 @@ main {
   margin-top: 64px;
 }
 
-#__next {
+/* #__next {
   min-height: 100vh;
   position: relative;
   padding-bottom: 34px;
   box-sizing: border-box;
-}
+} */
 
 header {
   display: flex;
