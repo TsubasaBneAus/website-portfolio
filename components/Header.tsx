@@ -18,7 +18,7 @@ const Header = () => {
           <li>
             <Link href="/about">About</Link>
           </li>
-          <li>
+          {/* <li>
             <Dropdown id="dropdown">
               <Dropdown.Toggle id="dropdown-basic">
                 Change Languages
@@ -33,7 +33,7 @@ const Header = () => {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
