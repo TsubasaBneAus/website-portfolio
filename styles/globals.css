@@ -7,18 +7,15 @@
 body {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 34px;
+  box-sizing: border-box;
 }
 
 main {
   margin-top: 64px;
 }
-
-/* #__next {
-  min-height: 100vh;
-  position: relative;
-  padding-bottom: 34px;
-  box-sizing: border-box;
-} */
 
 header {
   display: flex;
