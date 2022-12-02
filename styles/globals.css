@@ -13,6 +13,7 @@ main {
   position: relative;
   padding-bottom: 34px;
   box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 header {
@@ -26,7 +27,6 @@ header {
   height: 64px;
   top: 0;
   z-index: 10;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .title,
