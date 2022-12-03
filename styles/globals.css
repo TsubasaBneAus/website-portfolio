@@ -152,7 +152,8 @@ footer p {
   padding: 3px;
 }
 
-.introduction p {
+.introduction p,
+.portfolio p {
   margin: 20px;
   font-style: italic;
   font-size: 24px;
