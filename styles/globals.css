@@ -106,6 +106,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 27px;
   }
 }
 
