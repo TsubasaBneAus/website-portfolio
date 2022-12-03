@@ -5,7 +5,7 @@ import { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="fadein">
       <div className="introduction">
         <h1>Tsubasa Endo</h1>
         <Image className="profileImage" src={profileImage} alt="" />
