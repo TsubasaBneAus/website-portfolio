@@ -1,8 +1,9 @@
 import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import Link from "next/link";
+import { NextPage } from "next";
 
-const About = () => {
+const About: NextPage = () => {
   return (
     <div className="about">
       <h1>About</h1>

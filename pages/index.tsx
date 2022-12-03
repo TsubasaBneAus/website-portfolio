@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
 import profileImage from "../public/profile.jpg";
+import { NextPage } from "next";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div>
       <div className="introduction">
@@ -17,3 +18,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
