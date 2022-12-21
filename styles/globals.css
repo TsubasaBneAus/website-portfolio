@@ -47,6 +47,8 @@ header nav ul {
   margin: 0 auto;
   padding-left: 32px;
   height: 27px;
+  display: flex;
+  align-items: center;
 }
 
 header nav ul li {
